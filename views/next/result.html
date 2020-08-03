@@ -1,0 +1,31 @@
+<!doctype html>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100,300,400&display=swap" rel="stylesheet">
+<link href="./style.css" rel="stylesheet">
+<html>
+    <head>
+        <title>Sleep Sort</title>
+    </head>
+    <body>
+        <input type="text" id="array1" name="array"/>
+        <input type="submit" id="sumbitButton"/>
+        <h2> Result after ssorting <b class="array">{{.nums}}]</b> is <br/><b class="result">[{{.result}}</b> </h2>
+    </body>
+
+    <script type="text/javascript">
+        
+        console.log('here')
+    
+        document.getElementById("sumbitButton").addEventListener('click', () =>{
+            console.log('here1');
+            var arrayVal = document.getElementById("array1").value;
+            console.debug(arrayVal)
+            // fetch(arrayVal)
+            //     .then(response => response.json())
+            //     .then(data => {
+            //         console.log(data)
+            //         document.getElementById('result').innerHTML = data
+            //     });
+        })
+        
+    </script>
+</html>

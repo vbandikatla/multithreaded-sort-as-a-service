@@ -1,0 +1,16 @@
+body{
+    background-color: #dedede;
+    font-family: 'Roboto';
+}
+h2{
+    font-weight: 300;
+    color: #666;
+}
+
+.result{
+    padding-left: 20px;
+}
+
+.array, .result{
+    color: #333;
+}
